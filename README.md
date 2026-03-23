@@ -10,12 +10,16 @@
 ---
 
 ## Sample Charts
-
-![Discount Impact_Analysis](07_discount_impact.png)
-
-![Region_Performance](03_region_performance.png).
+![Discount_Impact_Analysis](07_discount_impact.png)
 
 ![Correlation Heatmap](08_correlation_heatmap.png)
+
+![Region_Performance_Analysis](03_region_performance.png)
+
+![Profit Margin Analysis](06_profit_distribution.png)
+
+
+
 
 
 ---
@@ -57,18 +61,18 @@ covering the period January 2023 to July 2024.
 
 | # | Chart | Business Insight |
 |---|-------|-----------------|
-| 01 | KPI Overview | Total Revenue, Profit, Margin, Orders |
+| 01 | KPI Overview | Total Revenue, Profit, Margin and Orders |
 | 02 | Monthly Trend | Revenue and profit trend month by month |
-| 03 | Region Performance | Revenue by region — bar and donut chart |
-| 04 | Category Analysis | Revenue vs profit margin bubble chart |
-| 05 | Customer Type | Retail vs Corporate vs SMB comparison |
-| 06 | Profit Distribution | Margin histogram and colorful box plot |
-| 07 | Discount Impact | Discount bands vs margin and revenue |
+| 03 | Region Performance | Revenue by region — grouped bar and donut chart |
+| 04 | Category Analysis | Revenue vs profit margin — grouped bar and bubble chart |
+| 05 | Customer Type | Retail vs Corporate vs SMB grouped bar comparison |
+| 06 | Profit Distribution | Margin histogram and colorful box plot by category |
+| 07 | Discount Impact | Discount bands effect on margin and revenue |
 | 08 | Correlation Heatmap | Correlation between all numerical variables |
-| 09 | Quarterly YoY | Year over year quarterly comparison |
-| 10 | Day of Week | Weekday vs weekend order patterns |
-| 11 | Top Sales Reps | Top 10 representatives with medals |
-| 12 | Pareto Analysis | 80/20 rule — which categories drive revenue |
+| 09 | Quarterly YoY | Year over year quarterly grouped bar comparison |
+| 10 | Day of Week | Weekday vs weekend revenue and order patterns |
+| 11 | Top Sales Reps | Top 10 representatives by revenue and profit margin |
+| 12 | Pareto Analysis | 80/20 rule — which categories drive total revenue |
 
 ---
 
