@@ -5,18 +5,34 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7-orange)
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.12-red)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+---
+
+## Sample Charts
+
+![Discount Impact_Analysis](07_discount_impact.png)
+
+![Region_Performance](03_region_performance.png).
+
+![Correlation Heatmap](08_correlation_heatmap.png)
+
+
+---
 
 ## Overview
+
 Complete Exploratory Data Analysis (EDA) on a sales dataset containing
 800+ orders across 5 regions, 6 product categories, and 3 customer types
 covering the period January 2023 to July 2024.
 
-**Author:** Satyam Chauhan | MIS Executive → Data Analyst
+**Author:** Satyam Chauhan | MIS Executive → Data Analyst  
 **Tools:** Python | Pandas | NumPy | Matplotlib | Seaborn
 
 ---
 
 ## Business Questions Answered
+
 - Which regions and categories drive the most revenue?
 - How does revenue and profit trend month by month?
 - Do discounts help or hurt profitability?
@@ -27,6 +43,7 @@ covering the period January 2023 to July 2024.
 ---
 
 ## Key Findings
+
 1. **North region** leads with the highest revenue share
 2. **Corporate customers** generate 2.5x higher average order value than Retail
 3. **Discounts above 10%** reduce profit margins by ~8 percentage points
@@ -42,15 +59,15 @@ covering the period January 2023 to July 2024.
 |---|-------|-----------------|
 | 01 | KPI Overview | Total Revenue, Profit, Margin, Orders |
 | 02 | Monthly Trend | Revenue and profit trend month by month |
-| 03 | Region Performance | Revenue by region — bar and pie chart |
+| 03 | Region Performance | Revenue by region — bar and donut chart |
 | 04 | Category Analysis | Revenue vs profit margin bubble chart |
 | 05 | Customer Type | Retail vs Corporate vs SMB comparison |
-| 06 | Profit Distribution | Margin histogram and box plot by category |
-| 07 | Discount Impact | How discount bands affect profit margin |
+| 06 | Profit Distribution | Margin histogram and colorful box plot |
+| 07 | Discount Impact | Discount bands vs margin and revenue |
 | 08 | Correlation Heatmap | Correlation between all numerical variables |
 | 09 | Quarterly YoY | Year over year quarterly comparison |
 | 10 | Day of Week | Weekday vs weekend order patterns |
-| 11 | Top Sales Reps | Top 10 representatives by revenue |
+| 11 | Top Sales Reps | Top 10 representatives with medals |
 | 12 | Pareto Analysis | 80/20 rule — which categories drive revenue |
 
 ---
@@ -60,8 +77,8 @@ covering the period January 2023 to July 2024.
 ```
 Sales-eda-python/
 │
-├── sales_eda.py            <- Main Python analysis script
-├── README.md               <- Project documentation
+├── sales_eda.py               <- Main Python analysis script
+├── README.md                  <- Project documentation
 │
 ├── 01_kpi_overview.png
 ├── 02_monthly_trend.png
@@ -108,14 +125,18 @@ All 12 charts will be saved automatically in the same folder.
 |---------|---------|
 | Pandas | Data loading, cleaning, groupby analysis |
 | NumPy | Numerical operations and array handling |
-| Matplotlib | Chart creation and customization |
+| Matplotlib | Chart creation and visualizations |
 | Seaborn | Statistical visualizations and heatmaps |
 
 ---
 
 ## About Me
+
 I am an MIS Executive transitioning into Data Analytics.
-This is Project 1 of my Data Analyst portfolio.
+This is Project 1 of my 4-project Data Analyst portfolio.
 
 **Skills:** Python | SQL | Power BI | Google Sheets | MySQL | App Script
 
+**LinkedIn:** [Satyam Chauhan](https://www.linkedin.com/in/satyamchauhan2005)
+
+**GitHub:** [SatyamChauhan2005](https://github.com/SatyamChauhan2005)
